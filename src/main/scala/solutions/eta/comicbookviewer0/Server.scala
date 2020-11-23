@@ -9,7 +9,7 @@ import org.http4s.server.blaze.BlazeServerBuilder
 import org.http4s.server.middleware.Logger
 import scala.concurrent.ExecutionContext.global
 
-object Comicbookviewer0Server {
+object Server {
 
   def stream[F[_]: ConcurrentEffect](implicit T: Timer[F], C: ContextShift[F]): Stream[F, Nothing] = {
     for {
