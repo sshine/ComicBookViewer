@@ -1,0 +1,8 @@
+*.class
+**/target
+**/out
+
+.metals
+.bloop
+.scalafmt.conf
+.vscode
