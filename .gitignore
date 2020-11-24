@@ -4,5 +4,4 @@
 
 .metals
 .bloop
-.scalafmt.conf
 .vscode
